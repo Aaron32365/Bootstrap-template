@@ -1,0 +1,109 @@
+body{
+    background-image: url("/assets/images/so-white.png");
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#header{
+    background-color: white;
+    border-style: solid;
+    border-bottom-color: grey;
+    border-width: 1px;
+}
+
+a{
+    color: grey;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#header-name{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 100%;
+    background-color: teal;
+    text-align: center;
+}
+ul{
+    padding-top: 1.2%;
+    font-size: 1.3em;
+}
+
+#whitespace-top{
+    border-top-color: grey;
+    display: flex;
+    min-height: 50px;
+}
+
+#main-content{
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    background-color: white;
+    align-content: flex-start;
+    min-height: 600px;
+}
+#main-header{
+    color: teal;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+.greyline{
+    margin-top: .6em;   
+    border-bottom: 2px solid rgb(167, 160, 160);
+    margin-bottom: 1em;
+    margin-right: 5%;
+}
+#text-content{
+    color: grey;
+    margin-left: 23%;
+    font-size: 1.5em;
+}
+.img-container:after {
+    content: "";
+    display: inline;
+    clear: both;
+}
+img{
+    float: left;
+    margin-left: 3%;
+    width: 18%;
+    height: auto;
+}
+
+#text-content-sub{
+    color: grey;
+    margin-left: 3%;
+    font-size: 1.5em;
+}
+
+#whitespace-bottom{
+    display: flex;
+    min-height: 100px;
+}
+
+#footer-sub{
+    display: flex;
+    min-height: 10px;
+    background-color: teal;
+}
+
+#footer-main{
+    display: flex;
+    min-height: 63px;
+    background-color: grey;
+}
+#copyright{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}

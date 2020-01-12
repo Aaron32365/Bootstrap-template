@@ -1,0 +1,118 @@
+body{
+    background-image: url("./assets/images/so-white.png");
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+#header{
+    background-color: white;
+    border-style: solid;
+    border-bottom-color: grey;
+    border-width: 1px;
+}
+
+a{
+    color: grey;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#header-name{
+    color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 100%;
+    background-color: teal;
+    text-align: center;
+}
+ul{
+    padding-top: 1.2%;
+    font-size: 1.3em;
+}
+
+#whitespace-top{
+    border-top-color: grey;
+    display: flex;
+    min-height: 50px;
+}
+
+#main-content{
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    background-color: white;
+    align-content: flex-start;
+    min-height: 600px;
+}
+#main-header{
+    color: teal;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+.greyline{
+    margin-top: .6em;   
+    border-bottom: 2px solid rgb(167, 160, 160);
+    margin-bottom: 1em;
+    margin-right: 5%;
+}
+
+#whitespace-bottom{
+    display: flex;
+    min-height: 100px;
+}
+
+#footer-sub{
+    display: flex;
+    min-height: 10px;
+    background-color: teal;
+}
+
+#footer-main{
+    display: flex;
+    min-height: 63px;
+    background-color: grey;
+}
+#copyright{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#staticEmail{
+    margin-left: 4%;
+    color: grey;
+    font-size: 1.2em;
+    font-size: bold;
+}
+#email{
+    margin-left: 3.5%;
+    font-size: 1.5em;
+}
+#message{
+    margin-left: 3.5%;
+    font-size: 1.5em;
+}
+
+#exampleFormControlTextarea1{
+    margin-left: 3.5%;
+}
+#name{
+    margin-left: 3.5%;
+    font-size: 1.5em;
+}
+#colFormLabel{
+    margin-left: 3.5%;
+}
+.btn.btn-primary{
+    margin-left: 2%;
+}
